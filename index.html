@@ -1,0 +1,43 @@
+<!--
+  hw4 yipper - html
+  do not modify this file
+-->
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>SWIFTTT!!!!</title>
+    <link href='https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto:wght@400;700&display=swap' rel='stylesheet'>
+    <link rel='stylesheet' href='styles.css'>
+    <script src='index.js'></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>Taylor Swift Bracelet Decoder</h1>
+        <h3>If you received a bracelet and cannot figure out the acronym you can type it in here, and we will give you some possible matching lyrics</h3>
+      </div>
+      <nav>
+        <h2>type in an acronym</h2>
+        <div class="centered-container">
+          <input id='search-term' type='text'>
+          <button id='search-btn'>search</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <article>
+
+        <section id='new'>
+          <h2>Possible Lyrics:</h2>
+          <ul id="display">
+
+          </ul>
+        </section>
+      </article>
+
+      <!-- error view -->
+      <h2 id='error' class='hidden'>oopsie poopsie!</h2>
+    </main>
+  </body>
+</html>
