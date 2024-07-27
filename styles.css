@@ -8,7 +8,7 @@ body {
     
     background-color: #789ac0;
     /*background-image: url("1989.jpg");*/
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
 }
 
 h1 {
@@ -35,17 +35,7 @@ h1 {
     margin-bottom: 5px;
 }
 
-ul#display {
-    list-style-type: none; /* Remove the default bullet points */
-    padding: 0;            /* Remove default padding */
-    margin: 0;             /* Remove default margin */
-    display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center;   /* Center items horizontally */
-    font-size: 15px;
-   /* font-family: 'Roboto', sans-serif;*/
 
-}
 
 .result-item {
     margin-bottom: 10px;
@@ -61,8 +51,23 @@ ul#display {
 
 /* Style for the lyrics */
 
+.total-info {
+    text-align: center;
+    color: #3b3b3b;
+    font-weight: 600;
 
+}
 
+#title-link {
+    text-decoration: none; /* removes underline */
+}
+
+#title-link h1 {
+    margin: 0;
+    margin-top: 35px;
+    font-size: 60px;
+    color: white;
+}
 /* Style for the input field */
 #search-term {
     align-items: center;
@@ -72,10 +77,9 @@ ul#display {
     margin-right: 5px;
   }
   
-  /* Style for the search button */
+/* Style for the search button */
 #search-btn {
     align-items: center;
-    /* Add any other styles you want for the button */
     padding: 10px 25px;
     background-color: #007bff;
     color: #fff;
@@ -97,8 +101,8 @@ ul#display {
     align-items: center;
     font-size: 16px;
     font-family: 'Georgia', serif;
-    margin: 0; /* Ensure no extra margin is applied here */
-    padding: 0; /* Ensure no extra padding is applied here */
+    margin: 0;
+    padding: 0;
 }
 
 .song-title {
